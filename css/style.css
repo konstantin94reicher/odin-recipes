@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.ingredients {
+    list-style: circle; 
+    margin: 10px;
+}
+
+ol li {
+    padding: 10px;
+    margin: 10px;
+}
+
+h1, 
+li {
+    box-sizing: content-box;
+    padding: 10px;
+}
+
+a {
+    color: black;
+}
+a:hover {
+    color: red;
+}
